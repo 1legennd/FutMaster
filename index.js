@@ -20,3 +20,4 @@ const cartas = [
 
 client.once('ready', () => {
   console.log(`Bot online: ${
+    
