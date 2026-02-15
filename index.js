@@ -1,4 +1,3 @@
-
 const { Client, GatewayIntentBits } = require('discord.js');
 
 const client = new Client({
@@ -14,7 +13,7 @@ client.once('ready', () => {
 });
 
 client.on('messageCreate', message => {
-  if (message.content === "!teste") {
+  if (message.content === ;teste) {
     message.reply("Funcionando ✅");
   }
 });
